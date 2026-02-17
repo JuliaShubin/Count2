@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    private var count: Int = 0 {
+    private var count: Int = 42 {
         didSet {
             countLabel.text = "\(count)"
         }
